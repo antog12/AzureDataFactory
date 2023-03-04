@@ -1,0 +1,56 @@
+{
+	"name": "CdD_hkb_csv",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LK_Origen",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "datos.csv",
+				"container": "raw"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "ID",
+				"type": "String"
+			},
+			{
+				"name": "NAME",
+				"type": "String"
+			},
+			{
+				"name": "NUMERICID",
+				"type": "String"
+			},
+			{
+				"name": "QUALITY",
+				"type": "String"
+			},
+			{
+				"name": "TIMESTAMP",
+				"type": "String"
+			},
+			{
+				"name": "VALUE",
+				"type": "String"
+			},
+			{
+				"name": "CREACION",
+				"type": "String"
+			},
+			{
+				"name": "ACTUALIZACION",
+				"type": "String"
+			}
+		]
+	}
+}
