@@ -1,0 +1,9 @@
+{
+	"name": "ADF-Pruebas1",
+	"location": "westeurope",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "97120ed5-bf29-4280-9570-72b80fc56790",
+		"tenantId": "9e177e8d-e276-4922-ace9-f66627fbaee0"
+	}
+}
